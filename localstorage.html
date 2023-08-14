@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Username Input</title>
+</head>
+<body>
+    <h1>Enter Your Username</h1>
+    <input type="text" id="usernameInput" placeholder="Enter your username">
+    <button id="saveButton">Save Username</button>
+
+    <!-- <script>
+        // Check if local storage is supported by the browser
+        if (typeof(Storage) !== "undefined") {
+            // Retrieve username from local storage if it exists
+            const savedUsername = localStorage.getItem("username");
+            if (savedUsername) {
+                document.getElementById("usernameInput").value = savedUsername;
+            }
+
+            // Add event listener to the Save button
+            document.getElementById("saveButton").addEventListener("click", function() {
+                const username = document.getElementById("usernameInput").value;
+                if (username.trim() !== "") {
+                    // Save the username to local storage
+                    localStorage.setItem("username", username);
+                    alert("Username saved successfully!");
+                } else {
+                    alert("Please enter a valid username.");
+                }
+            });
+        } else {
+            alert("Local storage is not supported by your browser.");
+        }
+    </script> -->
+    <script src="localstorage.js"></script>
+</body>
+</html>
