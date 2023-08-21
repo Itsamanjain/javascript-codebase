@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+
+#btn{
+    padding:10px 14px;
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
